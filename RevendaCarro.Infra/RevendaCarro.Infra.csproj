@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RevendaCarro.Application\RevendaCarro.Application.csproj" />
+    <ProjectReference Include="..\RevendaCarro.Data\RevendaCarro.Data.csproj" />
+    <ProjectReference Include="..\RevendaCarro.Domain\RevendaCarro.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
